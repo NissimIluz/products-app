@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    >* {
+        margin: auto;
+        padding: 20px;
+    }
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: rgb(84, 149, 187) !important;
+}
+
+
+
+::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: rgb(84, 149, 187) !important;
+}
+
+.header {
+    background-image: linear-gradient(140deg, #a98e87 0%, #786974 50%, #7f836b 75%);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.submit-bth-container {
+    width: 100%;
+    display: flex;
+    .submit-bth {
+        margin: auto;
+        width: 50%;
+    }
+}

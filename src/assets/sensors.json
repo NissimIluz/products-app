@@ -1,0 +1,125 @@
+{
+    "components": [
+      {
+        "InstallDate": "2020-02-13T20:31:12.833Z",
+        "ComponentOk": 1,
+        "DeviceTypeHebrew": "גלאי תנועה",
+        "DeviceId": "1",
+        "DeviceType": "Motion",
+        "WebSiteDeviceName": "גלאי תנועה לחדר ארונות",
+        "LastReportDate": "2020-02-24 04:18:50",
+        "Picture": "motion_hank",
+        "ManufacturerName": "Hank"
+      },
+      {
+        "InstallDate": "2020-02-13T20:39:45.24Z",
+        "ComponentOk": 1,       
+        "DeviceTypeHebrew": "גלאי תנועה",
+        "DeviceId": "2",
+        "DeviceType": "Motion",
+        "WebSiteDeviceName": "גלאי תנועה לחדר אמבטיה",
+        "LastReportDate": "2020-02-24 04:18:50",
+        "Picture": "motion_philio",
+        "ManufacturerName": "Philio"
+      },
+      {
+        "InstallDate": "2020-02-13T20:41:13.71Z",
+        "ComponentOk": 1,
+        "DeviceTypeHebrew": "גלאי דלת/חלון",
+        "DeviceId": "3",
+        "DeviceType": "Contact",
+        "WebSiteDeviceName": "חיישן דלת כניסה",
+        "LastReportDate": "2020-02-24 04:18:50",
+        "Picture": "contact_hank",
+        "ManufacturerName": "Hank"
+      },
+      {
+        "InstallDate": "2020-02-27T19:21:54.1Z",
+        "ComponentOk": 1,
+        "DeviceTypeHebrew": "גלאי דלת/חלון",
+        "DeviceId": "4",
+        "DeviceType": "Contact",
+        "WebSiteDeviceName": "חיישן דלת מרפסת",
+        "LastReportDate": "2020-02-27 14:21:54",
+        "Picture": "contact_hank",
+        "ManufacturerName": "Hank"
+      },
+      {
+        "InstallDate": "2020-02-13T22:16:52.317Z",
+        "ComponentOk": 1,
+        "DeviceTypeHebrew": "גלאי הצפה",
+        "DeviceId": "5",
+        "DeviceType": "Water",
+        "WebSiteDeviceName": "חיישן הצפה",
+        "LastReportDate": "2020-02-24 04:18:50",
+        "Picture": "water_philio",
+        "ManufacturerName": "Philio"
+      },
+      {
+        "InstallDate": "2020-01-13T10:23:36.497Z",
+        "ComponentOk": 0,
+        "DeviceTypeHebrew": "Partition",
+        "DeviceId": "127",
+        "DeviceType": "Partition",
+        "WebSiteDeviceName": "Panel",
+        "LastReportDate": "2020-02-24 04:18:50"
+      },
+      {
+        "InstallDate": "2020-03-24T13:41:44.14Z",
+        "ComponentOk": 1,
+        "DeviceTypeHebrew": "בקר דוד",
+        "DeviceId": "1200",
+        "DeviceType": "Boiler",
+        "WebSiteDeviceName": "דוד",
+        "LastReportDate": "2020-03-24 09:41:44",
+        "Picture": "boiler_mcohome_rect",
+        "ManufacturerName": "McoHome",
+        "ReceptionLevel": "low"
+      },
+      {
+        "InstallDate": "2020-03-24T14:46:32.787Z",
+        "ComponentOk": 0,
+        "DeviceTypeHebrew": "בקר תאורה",
+        "DeviceId": "1201",
+        "DeviceType": "ZwaveLight",
+        "WebSiteDeviceName": "בקר תאורה למרפסת שמש",
+        "LastReportDate": "2020-03-24 10:46:32",
+        "Picture": "zwavelight_mcohome_rect",
+        "ManufacturerName": "McoHome"
+      },
+      {
+        "InstallDate": "2020-03-24T14:46:41.39Z",
+        "ComponentOk": 1,
+        "DeviceTypeHebrew": "בקר תאורה",
+        "DeviceId": "1202",
+        "DeviceType": "ZwaveLight",
+        "WebSiteDeviceName": "חיישן תאורת כניסה",
+        "LastReportDate": "2020-03-24 10:46:41",
+        "Picture": "zwavelight_mcohome_rect"
+      },
+      {       
+        "InstallDate": "2020-02-13T20:59:11.21Z",
+        "ComponentOk": 1,
+        "DeviceTypeHebrew": "מצלמה",
+        "DeviceId": "2048",
+        "DeviceType": "Camera",
+        "WebSiteDeviceName": "מצלמת רשת ביתית",
+        "LastReportDate": "2020-02-13 15:59:11",
+        "Picture": "camera_vivotek",
+        "ManufacturerName": "Vivotek",
+        "ReceptionLevel": "high"
+      },
+      {
+        "InstallDate": "2020-03-24T14:46:32.787Z",
+        "ComponentOk": 0,
+        "DeviceTypeHebrew": "בקר תאורה",
+        "DeviceId": "1201",
+        "DeviceType": "ZwaveLight",
+        "WebSiteDeviceName": "חיישן תאורת מרפסת שירות",
+        "LastReportDate": "2020-03-24 10:46:32",
+        "Picture": "zwavelight_mcohome_rect",
+        "ManufacturerName": "McoHome",
+        "ReceptionLevel": "medium"
+      }
+    ]
+}

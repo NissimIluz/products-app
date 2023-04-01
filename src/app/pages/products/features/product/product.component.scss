@@ -1,0 +1,48 @@
+.product {
+    text-align: center;
+
+    .title {
+        height: 100px;
+    }
+
+    .img-continuer {
+        height: 85px;
+
+        button {
+            display: none;
+        }
+        img {
+            height: 85px;
+            width: auto;
+            max-width: 500px;
+            object-fit: scale-down;
+        }
+    }
+
+    .img-continuer:hover {
+        button {
+            position: absolute;
+            display: flex;
+        }
+    }
+
+    .indicator {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .green {
+        background-color: rgb(31, 116, 31);
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .data {
+        display: flex;
+        justify-content: space-between;
+    }
+}

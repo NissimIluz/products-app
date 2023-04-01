@@ -1,0 +1,30 @@
+.products {
+    display: -webkit-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .product {
+        width: 170px;
+        height: 250px;
+        padding: 30px;
+
+        >* {
+            margin: auto;
+        }
+
+        padding: 30px;
+    }
+}
+
+.form-continuer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background-color: #398585;
+    margin: auto;
+    width: 100%;
+}
+
+.title {
+    padding: 20px;
+}

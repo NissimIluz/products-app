@@ -1,0 +1,20 @@
+<div class="form-continuer">
+    <form dir="rtl">
+        <mat-form-field appearance="fill">
+            <mat-label>סינון</mat-label>
+            <input matInput placeholder="למשל מגדיל טווח" [formControl]="filterForm">
+        </mat-form-field>
+    </form>
+    <button mat-fab color="accent" (click)="openEditor()"><mat-icon>add_circle_outline</mat-icon></button>
+</div>
+<div class="title">
+    <h2>
+        {{ productsNum$ | async}} התקנים רשומים
+        ({{((productsNum$|async) ?? 0) - ((flutyProductsNum$|async) ?? 0)}} תקינים {{flutyProductsNum$ | async}} בתקלה)
+    </h2>
+</div>
+<div class="products">
+    <div class="product" *ngFor="let product of products$ |async">
+        <app-product [product]="product" (onStartUpdate)="openEditor($event)" (onUpdate)="update($event)"></app-product>
+    </div>
+</div>

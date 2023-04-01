@@ -1,0 +1,50 @@
+<div class="header">
+  <h1>{{productToUpdate ? 'עדכון מוצר': 'הוספת מוצר'}}</h1>
+  <button (click)="exit()" mat-fab color="warn"><mat-icon>exit_to_app</mat-icon></button>
+</div>
+<from [formGroup]="formGroup" (ngSubmit)="submit()" dir="rtl" class="form">
+
+  <mat-form-field appearance="fill">
+    <mat-label>שם בעברית</mat-label>
+    <input matInput type="text" formControlName="DeviceTypeHebrew">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>מזהה מכשיר</mat-label>
+    <input matInput type="text" formControlName="DeviceId">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>סוג מכשיר</mat-label>
+    <input matInput type="text" formControlName="DeviceType">
+  </mat-form-field>
+  <mat-form-field appearance="fill" x>
+    <mat-label>שם באתר</mat-label>
+    <input matInput type="text" formControlName="WebSiteDeviceName">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>URL תמונה</mat-label>
+    <input matInput type="text" formControlName="Picture">
+  </mat-form-field>
+  <mat-form-field appearance="fill" x>
+    <mat-label>שם יצרן</mat-label>
+    <input matInput type="text" formControlName="ManufacturerName">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>רמה</mat-label>
+    <input matInput type="text" formControlName="ReceptionLevel">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>תאריך דיווח אחרון</mat-label>
+    <input matInput type="datetime" formControlName="LastReportDate">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>האם תקין</mat-label>
+    <mat-select formControlName="ComponentOk">
+      <mat-option [value]="1">תקין</mat-option>
+      <mat-option [value]="0">לא תקין</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div class="submit-bth-container">
+    <button mat-raised-button color="primary" (click)="submit()" type="submit" class="submit-bth">{{productToUpdate ?
+      'עדכון ': 'הוספה '}}</button>
+  </div>
+</from>
